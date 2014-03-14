@@ -556,7 +556,7 @@
 
     <!-- Display low battery warning when battery level dips to this value.
          Also, the battery stats are flushed to disk when we hit this level.  -->
-    <integer name="config_criticalBatteryWarningLevel">4</integer>
+    <integer name="config_criticalBatteryWarningLevel">5</integer>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
     <integer name="config_shutdownBatteryTemperature">680</integer>
@@ -824,7 +824,7 @@
     <integer name="config_datause_threshold_bytes">0</integer>
 
     <!-- The default reduced-datarate value in kilobits per sec -->
-    <integer name="config_datause_throttle_kbitsps">300</integer>
+    <integer name="config_datause_throttle_kbitsps">0</integer>
 
     <!-- The default iface on which to monitor data use -->
     <string name="config_datause_iface" translatable="false">rmnet0</string>
