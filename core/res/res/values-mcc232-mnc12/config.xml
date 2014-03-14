@@ -22,5 +22,13 @@
     <string-array translatable="false" name="config_operatorConsideredNonRoaming">
         <item>23201</item>
     </string-array>
+
+    <declare-styleable name="BatteryIcon">
+        <attr name="batteryView" format="string" />
+    </declare-styleable>
+	
+	<declare-styleable name="BatteryBarController">
+        <attr name="viewLocation" format="integer" />
+    </declare-styleable>
 </resources>
 
