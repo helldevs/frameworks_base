@@ -3787,7 +3787,6 @@ public final class Settings {
          * @hide
          */
         public static final String RECENT_PANEL_FAVORITES = "recent_panel_favorites";
->>>>>>> refs/remotes/SlimRoms/kk4.4
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
